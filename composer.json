@@ -1,0 +1,21 @@
+{
+    "name": "luihou/ding-robot",
+    "description": "A PHP SDK FOR DINGDING robot",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "housulei",
+            "email": "housulei@yazuo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Luishou\\Ding\\": "src/"
+        }
+    }
+}
